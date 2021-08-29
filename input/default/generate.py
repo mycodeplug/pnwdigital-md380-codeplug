@@ -13,9 +13,9 @@ output = Path(os.environ.get("OUTPUT") or (cp_dir / ".." / ".." / "OUTPUT"))
 
 CodeplugRecipe(
     source_pnwdigital=True,
-    source_seattledmr=True,
+    source_seattledmr=False,
     source_default_k7abd=True,
-    source_k7abd=[(cp_dir / "k7abd")],
+    order=cp_dir / "order.csv",
     exclude=cp_dir / "exclude.csv",
     output_farnsworth=[
         (cp_dir / "md380-uhf.json"),
