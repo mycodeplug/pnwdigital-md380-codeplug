@@ -1,7 +1,7 @@
 # pnwdigital-md380-codeplug
 
 Due to the limited memory size of the MD380/MD390 radios, many
-zones/repeaters are excluded.
+zones/repeaters are excluded. Testing in December 2021! 👋
 
 ## Data Sources
 
